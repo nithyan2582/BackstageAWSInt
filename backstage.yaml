@@ -8,7 +8,7 @@ metadata:
     Backstage plugin for Sentry.
     test
   annotations:
-    aws.com/lambda-function-name: custodian-rds-mark-long-lived-rds-snapshots
+    aws.com/lambda-function-name: fusionapp1
     aws.com/lambda-region: us-east-1    
 spec:
   type: service
