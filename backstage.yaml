@@ -2,14 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Slug
-  description: |
-    A service for testing Backstage functionality. For example, we can trigger errors
-    on the sample-service, these are sent to Sentry, then we can view them in the 
-    Backstage plugin for Sentry.
-    test
+  description: example.com
   annotations:
     github.com/project-slug: backstage/backstage
- spec:
-  type: service
-  owner: david@roadie.io
-  lifecycle: experimental
+spec:
+  type: website
+  lifecycle: production
+  owner: guest
