@@ -4,7 +4,6 @@ metadata:
   name: BackstageTechDocs
   description: Tech docs example integrated with the Backstage GIT repository
   annotations:
-    github.com/project-slug: backstage/backstage
     backstage.io/techdocs-ref: url:https://github.com/org/repo
 spec:
   type: service
